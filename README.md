@@ -8,5 +8,7 @@ Modern CSS Techniques: Incorporates responsive CSS units (rem, vw, vh) to ensure
 
 # Technologies Used:
 HTML5: Semantic markup for content structure.
+
 CSS3: Styling and layout using CSS Variables, Grid, Flexbox, and responsive units.
+
 JavaScript: Enhances interactivity, including dynamic theme switching functionality
