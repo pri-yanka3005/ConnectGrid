@@ -6,7 +6,7 @@ Responsive Design: Utilizes CSS Grid and Flexbox for flexible layout management 
 Theme Customization: Employs CSS Variables for easy theme management and customization options for users.
 Modern CSS Techniques: Incorporates responsive CSS units (rem, vw, vh) to ensure the website scales effectively on various devices.
 
-#Technologies Used:
+# Technologies Used:
 HTML5: Semantic markup for content structure.
 CSS3: Styling and layout using CSS Variables, Grid, Flexbox, and responsive units.
 JavaScript: Enhances interactivity, including dynamic theme switching functionality
