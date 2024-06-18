@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Social Media Website usong html,css,js</title>
+
+    <!-- iconscout cdn -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="log">Connections</h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search for creators,inspirations">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-picture">
+                    <img src="./images/dp.jpg" >
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main -->
+    <main>
+        <div class="container">
+            <!-- left -->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-picture">
+                        <img src="./images/dp.jpg" >
+                    </div>
+                    <div class="handle">
+                        <h4>Priyanka Chauhan</h4>
+                        <p class="text-muted">
+                            @priyanka
+                        </p>
+                    </div>
+                </a>
+                <!-- sidebar -->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home"></i></span><h3>Home</h3>
+                        </a>
+                    <a class="menu-item ">
+                        <span><i class="uil uil-compass"></i></span><h3>Explore</h3>
+                        </a>
+                    <a class="menu-item " id="notifications">
+                        <span><i class="uil uil-bell"  ><small class="notifications-count">9+</small></i></span><h3>Notifications</h3>
+                        <!-- Notifications popup -->
+                        <div class="notifications-popup">
+                            <div>
+                            <div class="profile-picture">
+                                <img src="./images/naruto.jpg" >
+                            </div>
+                            <div class="notifications-body">
+                               <b>Uzumaki Naruto</b> accepted your friend request
+                               <small class="text-muted">2 DAYS AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/hinata.jpg" >
+                            </div>
+                            <div class="notifications-body">
+                               <b>Hyuga Hinata</b> commented on your post
+                               <small class="text-muted">6 HOUR AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/jiraiya.jpg" >
+                            </div>
+                            <div class="notifications-body">
+                               <b>Ogata Shuma Hiroyuki</b> liked your post
+                               <small class="text-muted">4 MINUTES</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/gabimaru-.webp" >
+                            </div>
+                            <div class="notifications-body">
+                               <b>Gabimaru the Hollow</b> commented on a post you are tagged
+                               <small class="text-muted">3 HOUR AGO</small>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile-picture">
+                                <img src="./images/kocho.jpg" alt="">
+                            </div>
+                            <div class="notifications-body">
+                               <b>Shinobu Kocho</b> mention you in story
+                               <small class="text-muted">2 HOUR AGO</small>
+                            </div>
+                        </div>
+                        <div >
+                            <div class="profile-picture">
+                                <img src="./images/tanjiro.jpg" alt="">
+                            </div>
+                            <div class="notifications-body">
+                               <b>Tanjiro Kamado</b> commented on your post
+                               <small class="text-muted">1 HOUR AGO</small>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end notifications-popup -->
+                         </a>
+                    <a class="menu-item " id="messages-notifications">
+                       <span><i class="uil uil-envelope-alt" ><small class="notifications-count">6</small></i></span><h3>Messages</h3>
+                        </a>
+                    <a class="menu-item ">
+                        <span><i class="uil uil-bookmark"></i></span><h3>Bookmarks</h3>
+                        </a>
+                    <a class="menu-item ">
+                       <span><i class="uil uil-chart-line"></i></span><h3>Analytics</h3>
+                        </a>
+                    <a class="menu-item " id="theme">
+                        <span><i class="uil uil-palette"></i></span><h3>Theme</h3>
+                        </a>
+                    <a class="menu-item ">
+                        <span><i class="uil uil-setting"></i></span><h3>Settings</h3>
+                        </a>
+                </div>
+                <!-- end of sidebar -->
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+<!-- end of left -->
+
+            <!-- middle -->
+            <div class="middle">
+<!-- stories -->
+<div class="stories">
+    <div class="story">
+        <div class="profile-picture">
+            <img src="./images/dp.jpg" >
+        </div>
+        <p class="name">Your Story</p>
+    </div>
+    <div class="story">
+        <div class="profile-picture">
+            <img src="./images/rengoku.webp" >
+        </div>
+        <p class="name">Kyojuro Rengoku</p>
+    </div>
+    <div class="story">
+        <div class="profile-picture">
+            <img src="./images/itachi.jpg" >
+        </div>
+        <p class="name">Uchiha Itachi</p>
+    </div>
+    <div class="story">
+        <div class="profile-picture">
+            <img src="./images/yuki.jpg" >
+        </div>
+        <p class="name">Yuki Itose</p>
+    </div>
+    <div class="story">
+        <div class="profile-picture">
+            <img src="./images/nagi.jpg" >
+        </div>
+        <p class="name">Itsuomi Nagi</p>
+    </div>
+    <div class="story">
+        <div class="profile-picture">
+            <img src="./images/sagiri.jpeg" >
+        </div>
+        <p class="name">Yamada Asaemon Sagiri</p>
+    </div>
+    
+</div>
+
+<!-- end of stories -->
+
+<form class="create-post">
+    <div class="profile-picture">
+        <img src="./images/dp.jpg" >
+    </div>
+    <input type="text" placeholder="What's on your mind, Priyanka" id="create-post">
+    <input type="submit" value="Post" class="btn btn-primary">
+</form>
+
+<!-- feeds -->
+<div class="feeds">
+    <!-- feed-1 -->
+    <div class="feed">
+        <div class="head">
+            <div class="user">
+                <div class="profile-picture">
+<img src="./images/nezuko.jpg" >
+                </div>
+            <div class="ingo">
+                <h3>Kamado Nezuko</h3>
+                <small>Tokyo, 15 MINUTES AGO
+
+                </small>
+            </div>
+        </div>
+        <span class="edit">
+            <i class="uil uil-ellipsis-h"></i>
+        </span>
+    </div>
+    <div class="photo">
+        <img src="./images/neju.jpg" >
+    </div>
+    <div class="action-buttons">
+        <div class="interaction-buttons">
+<span><i class="uil uil-heart"></i></span>
+<span><i class="uil uil-comment"></i></span>
+<span><i class="uil uil-share-alt"></i></span>
+        </div>
+        <div class="bookmark">
+<span><i class="uil uil-bookmark-full"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/dp.jpg" ></span>
+        <span><img src="./images/tanjiro.jpg" ></span>
+        <span><img src="./images/kocho.jpg" ></span>
+        <p>Liked by <b>Priyanka Chauhan</b> and <b>2,324 others</b></p>
+    </div>
+<div class="caption">
+    <p><b>Kamado Nezuko</b> Finally, I managed to develop an immunity to sunlight
+    <span class="hash-tag">#The Chosen Demon</span></p>
+</div>
+<div class="comments text-muted">View all 378 comments</div>
+</div>
+
+<!-- end of feed-1 -->
+    <!-- feed-2 -->
+    <div class="feed">
+        <div class="head">
+            <div class="user">
+                <div class="profile-picture">
+<img src="./images/rengoku.webp" >
+                </div>
+            <div class="ingo">
+                <h3>Kyojuro Rengoku</h3>
+                <small>Japan, 18 MINUTES AGO
+
+                </small>
+            </div>
+        </div>
+        <span class="edit">
+            <i class="uil uil-ellipsis-h"></i>
+        </span>
+    </div>
+    <div class="photo">
+        <img src="./images/kyo.jpg" >
+    </div>
+    <div class="action-buttons">
+        <div class="interaction-buttons">
+<span><i class="uil uil-heart"></i></span>
+<span><i class="uil uil-comment"></i></span>
+<span><i class="uil uil-share-alt"></i></span>
+        </div>
+        <div class="bookmark">
+<span><i class="uil uil-bookmark-full"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/kocho.jpg" ></span>
+        <span><img src="./images/tanjiro.jpg" ></span>
+        <span><img src="./images/giyu.jpg" ></span>
+        <p>Liked by <b>Kamado Tanjiro</b> and <b>9,324 others</b></p>
+    </div>
+<div class="caption">
+    <p><b>Kyojuro Rengoku</b> Go ahead and live with your head held high!
+    <span class="hash-tag">#Flame Hashira</span></p>
+</div>
+<div class="comments text-muted">View all 8,378 comments</div>
+</div>
+
+<!-- end of feed-2 -->
+    <!-- feed-3 -->
+    <div class="feed">
+        <div class="head">
+            <div class="user">
+                <div class="profile-picture">
+<img src="./images/jiraiya.jpg" >
+                </div>
+            <div class="ingo">
+                <h3>Ogata Shuma Hiroyuki</h3>
+                <small> Konohagakure, 1 HOUR AGO
+
+                </small>
+            </div>
+        </div>
+        <span class="edit">
+            <i class="uil uil-ellipsis-h"></i>
+        </span>
+    </div>
+    <div class="photo">
+        <img src="./images/sage.jpg" >
+    </div>
+    <div class="action-buttons">
+        <div class="interaction-buttons">
+<span><i class="uil uil-heart"></i></span>
+<span><i class="uil uil-comment"></i></span>
+<span><i class="uil uil-share-alt"></i></span>
+        </div>
+        <div class="bookmark">
+<span><i class="uil uil-bookmark-full"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/dp.jpg" ></span>
+        <span><img src="./images/naruto.jpg" ></span>
+        <span><img src="./images/hinata.jpg" ></span>
+        <p>Liked by <b>Uzumaki Naruto</b> and <b>99,324 others</b></p>
+    </div>
+<div class="caption">
+    <p><b>Ogata Shuma Hiroyuki</b> Once you've been hurt you learn to hate. But if you hurt another you become hated. On your shoulders you sence guilt.
+    <span class="hash-tag">#Jiraiya</span></p>
+</div>
+<div class="comments text-muted">View all 19,978 comments</div>
+</div>
+
+<!-- end of feed-3 -->
+    <!-- feed-4 -->
+    <div class="feed">
+        <div class="head">
+            <div class="user">
+                <div class="profile-picture">
+<img src="./images/itachi.jpg" >
+                </div>
+            <div class="ingo">
+                <h3>Uchiha Itachi</h3>
+                <small>Konohagakure, 30 MINUTES AGO
+
+                </small>
+            </div>
+        </div>
+        <span class="edit">
+            <i class="uil uil-ellipsis-h"></i>
+        </span>
+    </div>
+    <div class="photo">
+        <img src="./images/akatsuki.webp" >
+    </div>
+    <div class="action-buttons">
+        <div class="interaction-buttons">
+<span><i class="uil uil-heart"></i></span>
+<span><i class="uil uil-comment"></i></span>
+<span><i class="uil uil-share-alt"></i></span>
+        </div>
+        <div class="bookmark">
+<span><i class="uil uil-bookmark-full"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/dp.jpg" ></span>
+        <span><img src="./images/naruto.jpg" ></span>
+        <span><img src="./images/hinata.jpg" ></span>
+        <p>Liked by <b>Hyuga Hinata</b> and <b>52,999 others</b></p>
+    </div>
+<div class="caption">
+    <p><b>Uchiha Itachi</b> No Matter How Pathetic The Reason, It's Enough To Start A War
+    <span class="hash-tag">#Pain</span></p>
+</div>
+<div class="comments text-muted">View all 3,378 comments</div>
+</div>
+
+<!-- end of feed-4 -->
+    <!-- feed-5 -->
+    <div class="feed">
+        <div class="head">
+            <div class="user">
+                <div class="profile-picture">
+<img src="./images/gabimaru-.webp" >
+                </div>
+            <div class="ingo">
+                <h3>Gabimaru The Hollow</h3>
+                <small>Iwagakure, 2 Days AGO
+
+                </small>
+            </div>
+        </div>
+        <span class="edit">
+            <i class="uil uil-ellipsis-h"></i>
+        </span>
+    </div>
+    <div class="photo">
+        <img src="./images/hells.webp" >
+    </div>
+    <div class="action-buttons">
+        <div class="interaction-buttons">
+<span><i class="uil uil-heart"></i></span>
+<span><i class="uil uil-comment"></i></span>
+<span><i class="uil uil-share-alt"></i></span>
+        </div>
+        <div class="bookmark">
+<span><i class="uil uil-bookmark-full"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/sagiri.jpeg" ></span>
+        <span><img src="./images/gabimaru-.webp" ></span>
+        <span><img src="./images/dp.jpg" ></span>
+        <p>Liked by <b>Yamada Asaemon Sagiri</b> and <b>23,324 others</b></p>
+    </div>
+<div class="caption">
+    <p><b>Gabimaru The Hollow</b> You will never know how strong you are unless you go out there and gain experience
+    <span class="hash-tag">#HellsParadise</span></p>
+</div>
+<div class="comments text-muted">View all 7,378 comments</div>
+</div>
+
+<!-- end of feed-5 -->
+    <!-- feed-6 -->
+    <div class="feed">
+        <div class="head">
+            <div class="user">
+                <div class="profile-picture">
+<img src="./images/naruto.jpg" >
+                </div>
+            <div class="ingo">
+                <h3>Uzumaki Naruto</h3>
+                <small>Hidden Leaf Village, 5 HOUR AGO
+
+                </small>
+            </div>
+        </div>
+        <span class="edit">
+            <i class="uil uil-ellipsis-h"></i>
+        </span>
+    </div>
+    <div class="photo">
+        <img src="./images/family.jpg" >
+    </div>
+    <div class="action-buttons">
+        <div class="interaction-buttons">
+<span><i class="uil uil-heart"></i></span>
+<span><i class="uil uil-comment"></i></span>
+<span><i class="uil uil-share-alt"></i></span>
+        </div>
+        <div class="bookmark">
+<span><i class="uil uil-bookmark-full"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/naruto.jpg" ></span>
+        <span><img src="./images/itachi.jpg" ></span>
+        <span><img src="./images/hinata.jpg" ></span>
+        <p>Liked by <b>Uchiha Itachi</b> and <b>212,324 others</b></p>
+    </div>
+<div class="caption">
+    <p><b>Uzumaki Naruto</b> I always want this kind of life
+    <span class="hash-tag">#family</span></p>
+</div>
+<div class="comments text-muted">View all 92,998 comments</div>
+</div>
+
+<!-- end of feed-6 -->
+    <!-- feed-7 -->
+    <div class="feed">
+        <div class="head">
+            <div class="user">
+                <div class="profile-picture">
+<img src="./images/yuki.jpg" >
+                </div>
+            <div class="ingo">
+                <h3>Yuki Itose</h3>
+                <small>Tokyo, 5 Days AGO
+
+                </small>
+            </div>
+        </div>
+        <span class="edit">
+            <i class="uil uil-ellipsis-h"></i>
+        </span>
+    </div>
+    <div class="photo">
+        <img src="./images/yukinagi.jpg" >
+    </div>
+    <div class="action-buttons">
+        <div class="interaction-buttons">
+<span><i class="uil uil-heart"></i></span>
+<span><i class="uil uil-comment"></i></span>
+<span><i class="uil uil-share-alt"></i></span>
+        </div>
+        <div class="bookmark">
+<span><i class="uil uil-bookmark-full"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/dp.jpg" ></span>
+        <span><img src="./images/itose.jpeg" ></span>
+        <span><img src="./images/nagi.jpg" ></span>
+        <p>Liked by <b>Itsuomi Nagi</b> and <b>29,324 others</b></p>
+    </div>
+<div class="caption">
+    <p><b>Yuki Itose</b> Love is deaf. You can not just tell someone you love them.You have to show it.
+    <span class="hash-tag">#asignofaffection</span></p>
+</div>
+<div class="comments text-muted">View all 4,099 comments</div>
+</div>
+
+<!-- end of feed-7 -->
+    <!-- feed-8 -->
+    <div class="feed">
+        <div class="head">
+            <div class="user">
+                <div class="profile-picture">
+<img src="./images/kakashi.jpg" >
+                </div>
+            <div class="ingo">
+                <h3>Hatake Kakashi</h3>
+                <small>Konohagakure, 1 MINUTES AGO
+
+                </small>
+            </div>
+        </div>
+        <span class="edit">
+            <i class="uil uil-ellipsis-h"></i>
+        </span>
+    </div>
+    <div class="photo">
+        <img src="./images/friends.jpg" >
+    </div>
+    <div class="action-buttons">
+        <div class="interaction-buttons">
+<span><i class="uil uil-heart"></i></span>
+<span><i class="uil uil-comment"></i></span>
+<span><i class="uil uil-share-alt"></i></span>
+        </div>
+        <div class="bookmark">
+<span><i class="uil uil-bookmark-full"></i></span>
+        </div>
+    </div>
+    <div class="liked-by">
+        <span><img src="./images/itachi.jpg" ></span>
+        <span><img src="./images/naruto.jpg" ></span>
+        <span><img src="./images/jiraiya.jpg" ></span>
+        <p>Liked by <b>Jiraiya</b> and <b>20,324 others</b></p>
+    </div>
+<div class="caption">
+    <p><b>Hatake kakashi</b> We used to be like this 
+    <span class="hash-tag">#friends</span></p>
+</div>
+<div class="comments text-muted">View all 9,978 comments</div>
+</div>
+
+<!-- end of feed-8 -->
+</div>
+<!-- end of feeds -->
+            </div>
+            <!-- end of middle -->
+
+            <!-- right -->
+            <div class="right">
+<div class="messages">
+    <div class="heading">
+    <h4>Messages</h4><i class="uil uil-edit"></i>
+</div>
+<!-- search bar -->
+<div class="search-bar">
+    <i class="uil uil-search"></i>
+    <input type="search" placeholder="Search messages" id="message-search">
+</div>
+<!-- messages category -->
+<div class="category">
+    <h6 class="active">Primary</h6>
+    <h6>General</h6>
+    <h6 class="message-requests">Requests(7)</h6>
+</div>
+<!-- message -->
+<div class="message">
+    <div class="profile-picture">
+        <img src="./images/h.webp" >
+    </div>
+    <div class="message-body">
+        <h5>Hatake Kakashi</h5>
+        <p class="text-muted">Just woke up bruh</p>
+    </div>
+</div>
+<div class="message">
+    <div class="profile-picture">
+        <img src="./images/law.jpg" >
+    </div>
+    <div class="message-body">
+        <h5>L Lawliet</h5>
+        <p class="text-bold">4+ new messages</p>
+    </div>
+</div>
+<div class="message">
+    <div class="profile-picture">
+        <img src="./images/kk.webp" >
+    </div>
+    <div class="message-body">
+        <h5>Kiyoka Kudou</h5>
+        <p class="text-bold">Sure</p>
+    </div>
+</div>
+<div class="message">
+    <div class="profile-picture">
+        <img src="./images/ms.jpg" >
+    </div>
+    <div class="message-body">
+        <h5>Miyo Saimori</h5>
+        <p class="text-muted">Where are you,Let's meet</p>
+    </div>
+</div>
+<div class="message">
+    <div class="profile-picture">
+        <img src="./images/ka.jpg" >
+    </div>
+    <div class="message-body">
+        <h5>ka koushun</h5>
+        <p class="text-muted">When will you show up dude</p>
+    </div>
+</div>
+<div class="message">
+    <div class="profile-picture">
+        <img src="./images/Ryu.jpg" >
+        <div class="active"></div>
+    </div>
+    <div class="message-body">
+        <h5>Shouxue</h5>
+        <p class="text-muted">Hey just come outta from your room</p>
+    </div>
+</div>
+            </div>
+<!-- end of messgaes -->
+
+<!-- friend requests -->
+<div class="friend-request">
+    <h4>Requests</h4>
+    <div class="request">
+        <div class="info">
+            <div class="profile-picture">
+                <img src="./images/nagato.jpg">
+            </div>
+            <div>
+                <h5> Nagato</h5>
+                <p class="text-muted">
+                    9 mutual friends
+                </p>
+            </div>
+        </div>
+        <div class="action">
+            <button class="btn btn-primary">Accept</button>
+            <button class="btn ">Decline</button>
+        </div>
+    </div>
+    <div class="request">
+        <div class="info">
+            <div class="profile-picture">
+                <img src="./images/ryuk.jpg">
+            </div>
+            <div>
+                <h5>Ryuk</h5>
+                <p class="text-muted">
+                    1 mutual friends
+                </p>
+            </div>
+        </div>
+        <div class="action">
+            <button class="btn btn-primary">Accept</button>
+            <button class="btn ">Decline</button>
+        </div>
+    </div>
+    <div class="request">
+        <div class="info">
+            <div class="profile-picture">
+                <img src="./images/sasuke.jpg">
+            </div>
+            <div>
+                <h5> Uchiha Sasuke</h5>
+                <p class="text-muted">
+                    10 mutual friends
+                </p>
+            </div>
+        </div>
+        <div class="action">
+            <button class="btn btn-primary">Accept</button>
+            <button class="btn ">Decline</button>
+        </div>
+    </div>
+</div>
+</div>
+<!-- end of right -->
+
+        </div>
+    </main>
+
+    <!-- theme customization -->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize your view</h2>
+            <p class="text-muted">Manage your font size,color, and background.</p>
+
+            <!-- font sixes -->
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2 active"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+
+                </div>
+            </div>
+
+            <!-- primary colors -->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+
+                <!-- background colors -->
+                <div class="background">
+                    <h4>Background</h4>
+                    <div class="choose-bg">
+                        <div class="bg-1 active">
+                            <span></span>
+                            <h5 for="bg-1">Light</h5>
+                        </div>
+                        <div class="bg-2">
+                            <span></span>
+                            <h5>Dim</h5>
+                        </div>
+                        <div class="bg-3">
+                            <span></span>
+                            <h5 for="bg-3">Light Out</h5>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
